@@ -10,8 +10,8 @@ public class Arithmetic
 	
 	public int sub(int x,int y)
 	{
-		int i=x-y;
-		return i;
+		int k=x-y;
+		return k;
 	}
 
 }
