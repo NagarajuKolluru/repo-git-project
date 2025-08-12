@@ -4,11 +4,12 @@ public class UPIPayment
 {
    public String doPaymentUsingPhonePe(long number,double amount)
    {
-	   return amount+"amount payment has been done through"+number+"using Phonepay ";
+	   return amount+"amount payment has been done through"+number+"using PhonePe ";
    }
-   public String doPaymentUsingGooglePay(long number,double amount)
+   public String doPaymentUsingGPay(long number,double amount)
    {
-	   return amount+"amount payment has been done through"+number+"using Googlepay ";
+	   return amount+"amount payment has been done through"+number+"using GPay ";
    }
+  
 }
 
