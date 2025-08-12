@@ -10,4 +10,8 @@ public class CardPayment
 	{
 		return amount+"amount payment done using Debit card";
 	}
+	public String paymentUsingGiftCard(long cardno,double amount)
+	{
+		return amount+"amount payment done using Gift card";
+	}
 }
