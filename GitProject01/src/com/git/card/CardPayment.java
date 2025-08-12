@@ -6,4 +6,8 @@ public class CardPayment
 	{
 		return amount+"amount payment done using Credit card";
 	}
+	public String paymentUsingDebitCard(long cardno,double amount)
+	{
+		return amount+"amount payment done using Debit card";
+	}
 }
