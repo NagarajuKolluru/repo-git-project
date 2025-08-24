@@ -11,6 +11,7 @@ public class Arithmetic
 	public int sub(int x,int y)
 	{
 		int k=x-y;
+        System.out.println("Sub method called");
 		return k;
 	}
 
